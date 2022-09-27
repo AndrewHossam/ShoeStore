@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">ShoeStore</string>
+    <string name="field_required">The field is required</string>
+    <string name="title_instructions">Instructions</string>
+    <string name="instruction_subtitle">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with</string>
+    <string name="action_start">Start</string>
+    <string name="hint_username">UserName</string>
+    <string name="hint_password">Password</string>
+    <string name="action_login">Login</string>
+    <string name="action_signup">SignUp</string>
+    <string name="hint_shoe_name">Shoe Name</string>
+    <string name="hint_company">Company</string>
+    <string name="hint_size">Size</string>
+    <string name="hint_description">Description</string>
+    <string name="aciton_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="title_welcome">Welcome</string>
+    <string name="welcome_subtitle">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with</string>
+    <string name="action_next">Next</string>
+    <string name="size">Size :</string>
+    <string name="title_registration">Registration</string>
+    <string name="title_shoe_list">Shoes List</string>
+    <string name="title_shoe_detail">Shoe detail</string>
 </resources>

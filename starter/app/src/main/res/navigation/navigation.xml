@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.udacity.shoestore.feature.LoginFragment"
+        android:label="@string/title_registration"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/instructionsFragment"
+        android:name="com.udacity.shoestore.feature.InstructionsFragment"
+        android:label="@string/title_instructions"
+        tools:layout="@layout/fragment_instructions">
+        <action
+            android:id="@+id/action_onboardingFragment_to_shoeListFragment"
+            app:destination="@id/shoeListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/shoeListFragment"
+        android:name="com.udacity.shoestore.feature.ShoeListFragment"
+        android:label="@string/title_shoe_list"
+        tools:layout="@layout/fragment_shoe_list">
+        <action
+            android:id="@+id/action_shoeListFragment_to_shoeDetailFragment"
+            app:destination="@id/shoeDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/shoeDetailFragment"
+        android:name="com.udacity.shoestore.feature.ShoeDetailFragment"
+        android:label="@string/title_shoe_detail"
+        tools:layout="@layout/fragment_shoe_detail" />
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.udacity.shoestore.feature.WelcomeFragment"
+        android:label="@string/title_welcome">
+        <action
+            android:id="@+id/action_welcomeFragment_to_onboardingFragment"
+            app:destination="@id/instructionsFragment" />
+    </fragment>
+</navigation>
