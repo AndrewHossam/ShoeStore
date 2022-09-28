@@ -8,8 +8,7 @@ You can clone the project locally on your machine by using
 
 git clone https://github.com/AndrewHossam/ShoeStore.git
 
-Open your android studio on starter folder
-Examples here
+Open your android studio and open the starter folder inside the repo
 
 ### Installation
 
