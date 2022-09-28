@@ -1,52 +1,33 @@
-# README Template
+# ShoeStore
 
-Below is a template provided for use when building your README file for students.
-
-# Project Title
-
-Project description goes here.
+A simple app to add shoe to your list.
 
 ## Getting Started
 
-Instructions for how to get a copy of the project running on your local machine.
+You can clone the project locally on your machine by using 
 
-### Dependencies
+git clone https://github.com/AndrewHossam/ShoeStore.git
 
-```
+Open your android studio on starter folder
 Examples here
-```
 
 ### Installation
 
-Step by step explanation of how to get a dev environment running.
+Wait for the android studio to download the dependencies.
+Then hit the run button
 
-List out the steps
-
-```
-Give an example here
-```
-
-## Testing
-
-Explain the steps needed to run any automated tests
-
-### Break Down Tests
-
-Explain what each test does and why
-
-```
-Examples here
-```
 ## Project Instructions
 
-This section should contain all the student deliverables for this project.
+This project will consist of five screens.
 
-## Built With
+Login screen: Email and password fields and labels plus create and login buttons
+  Welcome onboarding screen
+  Instructions onboarding screen
+  Shoe Listing screen
+  Shoe Detail screen for adding a new shoe
+  
 
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
-
-Include all items used to build project.
 
 ## License
+
+MIT
