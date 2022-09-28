@@ -24,7 +24,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        setSupportActionBar(binding.toolbar)
         binding.toolbar.setupWithNavController(navController)
         Timber.plant(Timber.DebugTree())
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        return navController.navigateUp()
     }
 }
